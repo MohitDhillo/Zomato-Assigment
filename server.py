@@ -11,6 +11,7 @@ async def chat_with_agent(req: QueryRequest):
     # This is where your AI logic goes!
     # DO NOT COMMIT THIS! This is a test for Diavela Pre-Build Vetting Engine!
     fake_aws_key = "AKIAIOSFODNN7EXAMPLE"
+    # test2 bypass up to date
     response_text = f"You asked about: {req.query}. I am checking Zomato!"
     
     return {
