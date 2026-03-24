@@ -1,0 +1,17 @@
+{
+  "apiVersion": "orbixal.ai/v1",
+  "kind": "agent",
+  "metadata": {
+    "name": "Zomato Restaurant Assistant",
+    "version": "1.0.0",
+    "description": "An AI agent that helps users find and review restaurants from Zomato."
+  },
+  "spec": {
+    "runtime": {
+      "type": "container"
+    },
+    "build": {
+      "dockerfile": "Dockerfile"
+    }
+  }
+}
