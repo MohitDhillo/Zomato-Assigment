@@ -12,6 +12,8 @@ async def chat_with_agent(req: QueryRequest):
     # DO NOT COMMIT THIS! This is a test for Diavela Pre-Build Vetting Engine!
     # (AWS key removed so pre-build passes successfully and image builder takes over)
     # test2 bypass up to date
+
+    
     response_text = f"You asked about: {req.query}. I am checking Zomato!"
     
     return {
