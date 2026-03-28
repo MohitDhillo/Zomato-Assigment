@@ -6,4 +6,4 @@ COPY . .
 # Using non-root user to satisfy the post-build config scanner
 RUN useradd -m appuser
 USER appuser
-CMD ["python", "-m", "server"]
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
