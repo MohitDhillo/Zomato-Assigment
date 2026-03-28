@@ -1,3 +1,6 @@
 fastapi
 uvicorn
 pydantic
+# Upgrade base-image transitive deps that carry high CVEs
+wheel>=0.46.2
+jaraco.context>=6.1.0
