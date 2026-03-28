@@ -13,6 +13,7 @@ async def chat_with_agent(req: QueryRequest):
     # (AWS key removed so pre-build passes successfully and image builder takes over)
     # Stage 1 (Gitleaks) passed — now testing Stage 2 (Trivy CVE in requirements.txt)
 
+    
     response_text = f"You asked about: {req.query}. I am checking Zomato!"
     
     return {

@@ -3,5 +3,5 @@
 fastapi==0.109.0
 uvicorn==0.27.0
 pydantic==2.5.3
-# DELIBERATE CVE: Jinja2 2.11.3 has CVE-2020-28493 (MEDIUM) — non-blocking for vet_repo!
-jinja2==2.11.3
+# Clean version for happy-path test
+jinja2>=3.1.2
